@@ -1,0 +1,26 @@
+/* html resizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* colors root */
+:root {
+}
+
+/* other css */
+.text-justify{
+  text-align: justify;
+}
+/* fix it for responsive
+ @media (max-width: 576px) {
+  .dropdown-item::before{
+    transform: rotate(90deg);
+  }
+} */
